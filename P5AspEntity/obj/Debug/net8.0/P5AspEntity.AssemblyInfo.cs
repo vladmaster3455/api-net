@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("P5AspEntity")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+630504bbd507d98793192e37e31ea56ac60a3980")]
 [assembly: System.Reflection.AssemblyProductAttribute("P5AspEntity")]
 [assembly: System.Reflection.AssemblyTitleAttribute("P5AspEntity")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

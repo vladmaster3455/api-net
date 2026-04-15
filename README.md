@@ -1,6 +1,6 @@
 # P5AspEntity
 
-API REST simple en ASP.NET Core 8 (Minimal API) avec Entity Framework Core et SQLite.
+API REST simple en ASP.NET Core 8 (Controllers) avec Entity Framework Core et SQLite.
 
 ## Description
 
@@ -15,7 +15,7 @@ La persistence est geree par SQLite via EF Core (`products.db`).
 ## Stack technique
 
 - .NET 8
-- ASP.NET Core Minimal API
+- ASP.NET Core Web API (Controllers)
 - Entity Framework Core 8
 - SQLite
 - Swagger / OpenAPI (en environnement Development)
@@ -75,10 +75,10 @@ https://localhost:5001/swagger
 
 ## Endpoints
 
-### GET /products
+### GET /api/produits
 Retourne la liste des produits.
 
-### POST /products
+### POST /api/produits
 Cree un nouveau produit.
 
 Exemple body JSON:
@@ -90,7 +90,7 @@ Exemple body JSON:
 }
 ```
 
-### PUT /products/{id}
+### PUT /api/produits/{id}
 Met a jour un produit existant.
 
 Exemple body JSON:
@@ -102,30 +102,27 @@ Exemple body JSON:
 }
 ```
 
-### DELETE /products/{id}
+### DELETE /api/produits/{id}
 Supprime un produit par son identifiant.
 
 ## Exemples rapides avec curl
 
 ```bash
 # Lister les produits
-curl -k https://localhost:5001/products
+curl -k https://localhost:7131/api/produits
 
 # Ajouter un produit
-curl -k -X POST https://localhost:5001/products \
+curl -k -X POST https://localhost:7131/api/produits \
   -H "Content-Type: application/json" \
   -d '{"name":"Souris","price":25.5}'
 
 # Modifier un produit
-curl -k -X PUT https://localhost:5001/products/1 \
+curl -k -X PUT https://localhost:7131/api/produits/1 \
   -H "Content-Type: application/json" \
   -d '{"name":"Souris gamer","price":39.9}'
 
 # Supprimer un produit
-curl -k -X DELETE https://localhost:5001/products/1
+curl -k -X DELETE https://localhost:7131/api/produits/1
 ```
 
-## Notes
 
-- L'endpoint `/weatherforecast` est encore present (template par defaut ASP.NET).
-- Pensez a adapter la chaine de connexion dans `P5AspEntity/appsettings.json` si besoin.

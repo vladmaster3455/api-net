@@ -1,12 +1,88 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\HP\\Documents\\POOAspEntity\\POOAspEntity\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E2F658BF-9FAE-4872-AAE6-39431888CD36}|P5AspEntity\\P5AspEntity.csproj|c:\\users\\hp\\documents\\pooaspentity\\pooaspentity\\p5aspentity\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2F658BF-9FAE-4872-AAE6-39431888CD36}|P5AspEntity\\P5AspEntity.csproj|solutionrelative:p5aspentity\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2F658BF-9FAE-4872-AAE6-39431888CD36}|P5AspEntity\\P5AspEntity.csproj|c:\\users\\hp\\documents\\pooaspentity\\pooaspentity\\p5aspentity\\controllers\\produitscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2F658BF-9FAE-4872-AAE6-39431888CD36}|P5AspEntity\\P5AspEntity.csproj|solutionrelative:p5aspentity\\controllers\\produitscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2F658BF-9FAE-4872-AAE6-39431888CD36}|P5AspEntity\\P5AspEntity.csproj|c:\\users\\hp\\documents\\pooaspentity\\pooaspentity\\p5aspentity\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2F658BF-9FAE-4872-AAE6-39431888CD36}|P5AspEntity\\P5AspEntity.csproj|solutionrelative:p5aspentity\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2F658BF-9FAE-4872-AAE6-39431888CD36}|P5AspEntity\\P5AspEntity.csproj|c:\\users\\hp\\documents\\pooaspentity\\pooaspentity\\p5aspentity\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2F658BF-9FAE-4872-AAE6-39431888CD36}|P5AspEntity\\P5AspEntity.csproj|solutionrelative:p5aspentity\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Documents\\POOAspEntity\\POOAspEntity\\P5AspEntity\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "P5AspEntity\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\HP\\Documents\\POOAspEntity\\POOAspEntity\\P5AspEntity\\Models\\Product.cs",
+              "RelativeToolTip": "P5AspEntity\\Models\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-15T15:20:20.243Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Documents\\POOAspEntity\\POOAspEntity\\P5AspEntity\\Program.cs",
+              "RelativeDocumentMoniker": "P5AspEntity\\Program.cs",
+              "ToolTip": "C:\\Users\\HP\\Documents\\POOAspEntity\\POOAspEntity\\P5AspEntity\\Program.cs",
+              "RelativeToolTip": "P5AspEntity\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-15T15:00:18.122Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Documents\\POOAspEntity\\POOAspEntity\\P5AspEntity\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "P5AspEntity\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\HP\\Documents\\POOAspEntity\\POOAspEntity\\P5AspEntity\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "P5AspEntity\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-15T14:59:46.43Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProduitsController.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Documents\\POOAspEntity\\POOAspEntity\\P5AspEntity\\Controllers\\ProduitsController.cs",
+              "RelativeDocumentMoniker": "P5AspEntity\\Controllers\\ProduitsController.cs",
+              "ToolTip": "C:\\Users\\HP\\Documents\\POOAspEntity\\POOAspEntity\\P5AspEntity\\Controllers\\ProduitsController.cs",
+              "RelativeToolTip": "P5AspEntity\\Controllers\\ProduitsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-15T14:59:16.73Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

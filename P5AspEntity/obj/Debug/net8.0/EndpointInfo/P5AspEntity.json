@@ -5,16 +5,32 @@
     "version": "1.0"
   },
   "paths": {
-    "/products": {
+    "/api/Produits": {
       "get": {
         "tags": [
-          "P5AspEntity"
+          "Produits"
         ],
         "responses": {
           "200": {
             "description": "OK",
             "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Product"
+                  }
+                }
+              },
               "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Product"
+                  }
+                }
+              },
+              "text/json": {
                 "schema": {
                   "type": "array",
                   "items": {
@@ -28,7 +44,7 @@
       },
       "post": {
         "tags": [
-          "P5AspEntity"
+          "Produits"
         ],
         "requestBody": {
           "content": {
@@ -36,21 +52,85 @@
               "schema": {
                 "$ref": "#/components/schemas/Product"
               }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Product"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Product"
+              }
             }
-          },
-          "required": true
+          }
         },
         "responses": {
           "200": {
-            "description": "OK"
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Product"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Product"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Product"
+                }
+              }
+            }
           }
         }
       }
     },
-    "/products/{id}": {
+    "/api/Produits/{id}": {
+      "get": {
+        "tags": [
+          "Produits"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Product"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Product"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Product"
+                }
+              }
+            }
+          }
+        }
+      },
       "put": {
         "tags": [
-          "P5AspEntity"
+          "Produits"
         ],
         "parameters": [
           {
@@ -69,9 +149,18 @@
               "schema": {
                 "$ref": "#/components/schemas/Product"
               }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Product"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Product"
+              }
             }
-          },
-          "required": true
+          }
         },
         "responses": {
           "200": {
@@ -81,7 +170,7 @@
       },
       "delete": {
         "tags": [
-          "P5AspEntity"
+          "Produits"
         ],
         "parameters": [
           {
@@ -97,29 +186,6 @@
         "responses": {
           "200": {
             "description": "OK"
-          }
-        }
-      }
-    },
-    "/weatherforecast": {
-      "get": {
-        "tags": [
-          "P5AspEntity"
-        ],
-        "operationId": "GetWeatherForecast",
-        "responses": {
-          "200": {
-            "description": "OK",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/WeatherForecast"
-                  }
-                }
-              }
-            }
           }
         }
       }
@@ -141,29 +207,6 @@
           "price": {
             "type": "number",
             "format": "double"
-          }
-        },
-        "additionalProperties": false
-      },
-      "WeatherForecast": {
-        "type": "object",
-        "properties": {
-          "date": {
-            "type": "string",
-            "format": "date"
-          },
-          "temperatureC": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "summary": {
-            "type": "string",
-            "nullable": true
-          },
-          "temperatureF": {
-            "type": "integer",
-            "format": "int32",
-            "readOnly": true
           }
         },
         "additionalProperties": false

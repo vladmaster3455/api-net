@@ -254,7 +254,7 @@ C:\Users\HP\Documents\POOAspEntity\POOAspEntity\P5AspEntity\obj\Debug\net8.0\sta
 C:\Users\HP\Documents\POOAspEntity\POOAspEntity\P5AspEntity\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\HP\Documents\POOAspEntity\POOAspEntity\P5AspEntity\obj\Debug\net8.0\staticwebassets.build.endpoints.json
 C:\Users\HP\Documents\POOAspEntity\POOAspEntity\P5AspEntity\obj\Debug\net8.0\swae.build.ex.cache
-C:\Users\HP\Documents\POOAspEntity\POOAspEntity\P5AspEntity\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Users\HP\Documents\POOAspEntity\POOAspEntity\P5AspEntity\obj\Debug\net8.0\P5AspEnt.1528771A.Up2Date
 C:\Users\HP\Documents\POOAspEntity\POOAspEntity\P5AspEntity\obj\Debug\net8.0\P5AspEntity.genruntimeconfig.cache
 C:\Users\HP\Documents\POOAspEntity\POOAspEntity\P5AspEntity\obj\Debug\net8.0\ref\P5AspEntity.dll
+C:\Users\HP\Documents\POOAspEntity\POOAspEntity\P5AspEntity\obj\Debug\net8.0\P5AspEntity.sourcelink.json
